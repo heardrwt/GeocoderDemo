@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dictionaries</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>San Francisco, CA, USA</string>
+			<key>dictionary</key>
+			<dict>
+				<key>City</key>
+				<string>San Francisco</string>
+				<key>Country</key>
+				<string>United States</string>
+				<key>CountryCode</key>
+				<string>us</string>
+				<key>State</key>
+				<string>CA</string>
+				<key>Street</key>
+				<string>1398 Haight Street</string>
+				<key>ZIP</key>
+				<string>94117</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cupertino, CA, USA</string>
+			<key>dictionary</key>
+			<dict>
+				<key>City</key>
+				<string>Cupertino</string>
+				<key>Country</key>
+				<string>United States</string>
+				<key>CountryCode</key>
+				<string>us</string>
+				<key>State</key>
+				<string>CA</string>
+				<key>Street</key>
+				<string>2 Infinite Loop</string>
+				<key>ZIP</key>
+				<string>95014</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mountain View, CA, USA</string>
+			<key>dictionary</key>
+			<dict>
+				<key>City</key>
+				<string>Mountain View</string>
+				<key>Country</key>
+				<string>United States</string>
+				<key>CountryCode</key>
+				<string>us</string>
+				<key>State</key>
+				<string>CA</string>
+				<key>Street</key>
+				<string>201 Castro Street</string>
+				<key>ZIP</key>
+				<string>94041</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Melbourne, Victoria, AU</string>
+			<key>dictionary</key>
+			<dict>
+				<key>City</key>
+				<string>Melbourne</string>
+				<key>Country</key>
+				<string>Australia</string>
+				<key>CountryCode</key>
+				<string>au</string>
+				<key>State</key>
+				<string>VIC</string>
+				<key>Street</key>
+				<string>25 Little Bourke Street</string>
+				<key>ZIP</key>
+				<string>3000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Westminster, London, UK</string>
+			<key>dictionary</key>
+			<dict>
+				<key>City</key>
+				<string>Westminster</string>
+				<key>Country</key>
+				<string>United Kingdom</string>
+				<key>CountryCode</key>
+				<string>gb</string>
+				<key>State</key>
+				<string>London</string>
+				<key>Street</key>
+				<string>36 Panton St</string>
+				<key>ZIP</key>
+				<string>SW1Y 4</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

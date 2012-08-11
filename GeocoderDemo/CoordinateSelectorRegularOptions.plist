@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinates</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>San Francisco, CA, USA</string>
+			<key>lat</key>
+			<real>37.776278</real>
+			<key>long</key>
+			<string>-122.419367</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Melbourne, Vic, AU</string>
+			<key>lat</key>
+			<real>-37.792422</real>
+			<key>long</key>
+			<string>144.968719</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mountain View, CA, USA</string>
+			<key>lat</key>
+			<real>37.388845</real>
+			<key>long</key>
+			<string>-122.083511</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Westminster, London, UK</string>
+			<key>lat</key>
+			<real>51.502652</real>
+			<key>long</key>
+			<string>-0.125828</string>
+		</dict>
+	</array>
+</dict>
+</plist>

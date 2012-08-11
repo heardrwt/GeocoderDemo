@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130C351E138B6F760079F392 /* DistanceBetweenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C351C138B6F760079F392 /* DistanceBetweenTableViewController.m */; };
+		1333650213861AE7007ECDA7 /* CoordinateSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1333650113861AE7007ECDA7 /* CoordinateSelectorTableViewController.m */; };
+		1333652613862A73007ECDA7 /* CoordinateSelectorRegularOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1333652513862A73007ECDA7 /* CoordinateSelectorRegularOptions.plist */; };
+		1345DB9D138EE15E00DC9C7A /* GeocoderDemoIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DB9A138EE15E00DC9C7A /* GeocoderDemoIcon57.png */; };
+		1345DB9E138EE15E00DC9C7A /* GeocoderDemoIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DB9B138EE15E00DC9C7A /* GeocoderDemoIcon114.png */; };
+		1345DB9F138EE15E00DC9C7A /* GeocoderDemoIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DB9C138EE15E00DC9C7A /* GeocoderDemoIcon72.png */; };
+		1345DBA5138EE3DC00DC9C7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DBA4138EE3DC00DC9C7A /* Default.png */; };
+		1345DBA7138EE41B00DC9C7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DBA6138EE41B00DC9C7A /* Default@2x.png */; };
+		1345DBA9138EE45200DC9C7A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DBA8138EE45200DC9C7A /* Default-Portrait~ipad.png */; };
+		1345DBAB138EE48300DC9C7A /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1345DBAA138EE48300DC9C7A /* Default-Landscape~ipad.png */; };
+		13478092138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13478091138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.m */; };
+		1395224913879B0F00FEEB7B /* CoordinateSelectorTableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1395224813879B0F00FEEB7B /* CoordinateSelectorTableViewCells.xib */; };
+		139522511387C86400FEEB7B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139522501387C86400FEEB7B /* QuartzCore.framework */; };
+		1398D8CA138906E400341960 /* ForwardDictionaryGeocodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1398D8C9138906E400341960 /* ForwardDictionaryGeocodeTableViewController.m */; };
+		13A849A91385CF44006CB327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A849A81385CF44006CB327 /* UIKit.framework */; };
+		13A849AB1385CF44006CB327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A849AA1385CF44006CB327 /* Foundation.framework */; };
+		13A849AD1385CF44006CB327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A849AC1385CF44006CB327 /* CoreGraphics.framework */; };
+		13A849B31385CF44006CB327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A849B11385CF44006CB327 /* InfoPlist.strings */; };
+		13A849B51385CF44006CB327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A849B41385CF44006CB327 /* main.m */; };
+		13A849B91385CF44006CB327 /* GeocoderDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A849B81385CF44006CB327 /* GeocoderDemoAppDelegate.m */; };
+		13A849BC1385CF44006CB327 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A849BB1385CF44006CB327 /* RootViewController.m */; };
+		13A91EEB1389D9AF0037D169 /* DictionarySelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A91EEA1389D9AF0037D169 /* DictionarySelectorTableViewController.m */; };
+		13A91EF31389E7CE0037D169 /* DictionarySelectorRegularOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13A91EF21389E7CE0037D169 /* DictionarySelectorRegularOptions.plist */; };
+		13B1EB021385D7F700B09EAD /* PlacemarksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1EAFC1385D7F700B09EAD /* PlacemarksListViewController.m */; };
+		13B1EB031385D7F700B09EAD /* PlacemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1EAFE1385D7F700B09EAD /* PlacemarkViewController.m */; };
+		13B1EB041385D7F700B09EAD /* PlacemarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1EAFF1385D7F700B09EAD /* PlacemarkViewController.xib */; };
+		13B1EB071385D83600B09EAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1EB061385D83500B09EAD /* CoreLocation.framework */; };
+		13B1EB091385D85700B09EAD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1EB081385D85700B09EAD /* MapKit.framework */; };
+		13B1EB0E1385D95900B09EAD /* ForwardStringGeocodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1EB0D1385D95900B09EAD /* ForwardStringGeocodeTableViewController.m */; };
+		13B1EB161385DEF400B09EAD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1EB141385DEF400B09EAD /* AddressBook.framework */; };
+		13B1EB171385DEF400B09EAD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1EB151385DEF400B09EAD /* AddressBookUI.framework */; };
+		13B1EB191385E0FC00B09EAD /* ForwardStringGeocodeTableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1EB181385E0FC00B09EAD /* ForwardStringGeocodeTableViewCells.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130C351B138B6F760079F392 /* DistanceBetweenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceBetweenTableViewController.h; sourceTree = "<group>"; };
+		130C351C138B6F760079F392 /* DistanceBetweenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceBetweenTableViewController.m; sourceTree = "<group>"; };
+		1333650013861AE7007ECDA7 /* CoordinateSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateSelectorTableViewController.h; sourceTree = "<group>"; };
+		1333650113861AE7007ECDA7 /* CoordinateSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateSelectorTableViewController.m; sourceTree = "<group>"; };
+		1333652513862A73007ECDA7 /* CoordinateSelectorRegularOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoordinateSelectorRegularOptions.plist; sourceTree = "<group>"; };
+		1345DB9A138EE15E00DC9C7A /* GeocoderDemoIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeocoderDemoIcon57.png; sourceTree = "<group>"; };
+		1345DB9B138EE15E00DC9C7A /* GeocoderDemoIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeocoderDemoIcon114.png; sourceTree = "<group>"; };
+		1345DB9C138EE15E00DC9C7A /* GeocoderDemoIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeocoderDemoIcon72.png; sourceTree = "<group>"; };
+		1345DBA4138EE3DC00DC9C7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1345DBA6138EE41B00DC9C7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1345DBA8138EE45200DC9C7A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		1345DBAA138EE48300DC9C7A /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		13478090138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseCoordinateGeocodeTableViewController.h; sourceTree = "<group>"; };
+		13478091138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseCoordinateGeocodeTableViewController.m; sourceTree = "<group>"; };
+		1395224813879B0F00FEEB7B /* CoordinateSelectorTableViewCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoordinateSelectorTableViewCells.xib; sourceTree = "<group>"; };
+		139522501387C86400FEEB7B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1398D8C8138906E400341960 /* ForwardDictionaryGeocodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardDictionaryGeocodeTableViewController.h; sourceTree = "<group>"; };
+		1398D8C9138906E400341960 /* ForwardDictionaryGeocodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardDictionaryGeocodeTableViewController.m; sourceTree = "<group>"; };
+		13A849A41385CF44006CB327 /* Geocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A849A81385CF44006CB327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13A849AA1385CF44006CB327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13A849AC1385CF44006CB327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13A849B01385CF44006CB327 /* GeocoderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeocoderDemo-Info.plist"; sourceTree = "<group>"; };
+		13A849B21385CF44006CB327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A849B41385CF44006CB327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13A849B61385CF44006CB327 /* GeocoderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeocoderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		13A849B71385CF44006CB327 /* GeocoderDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeocoderDemoAppDelegate.h; sourceTree = "<group>"; };
+		13A849B81385CF44006CB327 /* GeocoderDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocoderDemoAppDelegate.m; sourceTree = "<group>"; };
+		13A849BA1385CF44006CB327 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		13A849BB1385CF44006CB327 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		13A91EE91389D9AF0037D169 /* DictionarySelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionarySelectorTableViewController.h; sourceTree = "<group>"; };
+		13A91EEA1389D9AF0037D169 /* DictionarySelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionarySelectorTableViewController.m; sourceTree = "<group>"; };
+		13A91EF21389E7CE0037D169 /* DictionarySelectorRegularOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DictionarySelectorRegularOptions.plist; sourceTree = "<group>"; };
+		13B1EAFB1385D7F700B09EAD /* PlacemarksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacemarksListViewController.h; sourceTree = "<group>"; };
+		13B1EAFC1385D7F700B09EAD /* PlacemarksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacemarksListViewController.m; sourceTree = "<group>"; };
+		13B1EAFD1385D7F700B09EAD /* PlacemarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacemarkViewController.h; sourceTree = "<group>"; };
+		13B1EAFE1385D7F700B09EAD /* PlacemarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacemarkViewController.m; sourceTree = "<group>"; };
+		13B1EAFF1385D7F700B09EAD /* PlacemarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacemarkViewController.xib; sourceTree = "<group>"; };
+		13B1EB061385D83500B09EAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		13B1EB081385D85700B09EAD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13B1EB0C1385D95900B09EAD /* ForwardStringGeocodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardStringGeocodeTableViewController.h; sourceTree = "<group>"; };
+		13B1EB0D1385D95900B09EAD /* ForwardStringGeocodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardStringGeocodeTableViewController.m; sourceTree = "<group>"; };
+		13B1EB141385DEF400B09EAD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		13B1EB151385DEF400B09EAD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		13B1EB181385E0FC00B09EAD /* ForwardStringGeocodeTableViewCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForwardStringGeocodeTableViewCells.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A849A11385CF44006CB327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139522511387C86400FEEB7B /* QuartzCore.framework in Frameworks */,
+				13A849AB1385CF44006CB327 /* Foundation.framework in Frameworks */,
+				13A849A91385CF44006CB327 /* UIKit.framework in Frameworks */,
+				13A849AD1385CF44006CB327 /* CoreGraphics.framework in Frameworks */,
+				13B1EB071385D83600B09EAD /* CoreLocation.framework in Frameworks */,
+				13B1EB091385D85700B09EAD /* MapKit.framework in Frameworks */,
+				13B1EB161385DEF400B09EAD /* AddressBook.framework in Frameworks */,
+				13B1EB171385DEF400B09EAD /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133364FE13861A3F007ECDA7 /* Coordinate Selector */ = {
+			isa = PBXGroup;
+			children = (
+				1333650013861AE7007ECDA7 /* CoordinateSelectorTableViewController.h */,
+				1333650113861AE7007ECDA7 /* CoordinateSelectorTableViewController.m */,
+				1395224813879B0F00FEEB7B /* CoordinateSelectorTableViewCells.xib */,
+				1333652513862A73007ECDA7 /* CoordinateSelectorRegularOptions.plist */,
+			);
+			name = "Coordinate Selector";
+			sourceTree = "<group>";
+		};
+		133364FF13861AA6007ECDA7 /* Dictionary Selector */ = {
+			isa = PBXGroup;
+			children = (
+				13A91EE91389D9AF0037D169 /* DictionarySelectorTableViewController.h */,
+				13A91EEA1389D9AF0037D169 /* DictionarySelectorTableViewController.m */,
+				13A91EF21389E7CE0037D169 /* DictionarySelectorRegularOptions.plist */,
+			);
+			name = "Dictionary Selector";
+			sourceTree = "<group>";
+		};
+		13478098138B1D7D002CCA08 /* Distance Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				130C351B138B6F760079F392 /* DistanceBetweenTableViewController.h */,
+				130C351C138B6F760079F392 /* DistanceBetweenTableViewController.m */,
+			);
+			name = "Distance Calculator";
+			sourceTree = "<group>";
+		};
+		13A849991385CF44006CB327 = {
+			isa = PBXGroup;
+			children = (
+				13A849AE1385CF44006CB327 /* GeocoderDemo */,
+				13A849A71385CF44006CB327 /* Frameworks */,
+				13A849A51385CF44006CB327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A849A51385CF44006CB327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A849A41385CF44006CB327 /* Geocoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A849A71385CF44006CB327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139522501387C86400FEEB7B /* QuartzCore.framework */,
+				13B1EB141385DEF400B09EAD /* AddressBook.framework */,
+				13B1EB151385DEF400B09EAD /* AddressBookUI.framework */,
+				13B1EB081385D85700B09EAD /* MapKit.framework */,
+				13B1EB061385D83500B09EAD /* CoreLocation.framework */,
+				13A849A81385CF44006CB327 /* UIKit.framework */,
+				13A849AA1385CF44006CB327 /* Foundation.framework */,
+				13A849AC1385CF44006CB327 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A849AE1385CF44006CB327 /* GeocoderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13A849B71385CF44006CB327 /* GeocoderDemoAppDelegate.h */,
+				13A849B81385CF44006CB327 /* GeocoderDemoAppDelegate.m */,
+				13A849BA1385CF44006CB327 /* RootViewController.h */,
+				13A849BB1385CF44006CB327 /* RootViewController.m */,
+				13B1EB0A1385D8BB00B09EAD /* Forward Geocoding */,
+				13B1EB0B1385D8CA00B09EAD /* Reverse Geocoding */,
+				13B1EAFA1385D7D900B09EAD /* Placemarks */,
+				133364FE13861A3F007ECDA7 /* Coordinate Selector */,
+				133364FF13861AA6007ECDA7 /* Dictionary Selector */,
+				13A849AF1385CF44006CB327 /* Supporting Files */,
+			);
+			path = GeocoderDemo;
+			sourceTree = "<group>";
+		};
+		13A849AF1385CF44006CB327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1345DBAA138EE48300DC9C7A /* Default-Landscape~ipad.png */,
+				1345DBA8138EE45200DC9C7A /* Default-Portrait~ipad.png */,
+				1345DBA6138EE41B00DC9C7A /* Default@2x.png */,
+				1345DBA4138EE3DC00DC9C7A /* Default.png */,
+				1345DB9A138EE15E00DC9C7A /* GeocoderDemoIcon57.png */,
+				1345DB9B138EE15E00DC9C7A /* GeocoderDemoIcon114.png */,
+				1345DB9C138EE15E00DC9C7A /* GeocoderDemoIcon72.png */,
+				13A849B01385CF44006CB327 /* GeocoderDemo-Info.plist */,
+				13A849B11385CF44006CB327 /* InfoPlist.strings */,
+				13A849B41385CF44006CB327 /* main.m */,
+				13A849B61385CF44006CB327 /* GeocoderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A91EF4138A35810037D169 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				13B1EB0C1385D95900B09EAD /* ForwardStringGeocodeTableViewController.h */,
+				13B1EB0D1385D95900B09EAD /* ForwardStringGeocodeTableViewController.m */,
+				13B1EB181385E0FC00B09EAD /* ForwardStringGeocodeTableViewCells.xib */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		13A91EF5138A35960037D169 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1398D8C8138906E400341960 /* ForwardDictionaryGeocodeTableViewController.h */,
+				1398D8C9138906E400341960 /* ForwardDictionaryGeocodeTableViewController.m */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		13B1EAFA1385D7D900B09EAD /* Placemarks */ = {
+			isa = PBXGroup;
+			children = (
+				13B1EAFB1385D7F700B09EAD /* PlacemarksListViewController.h */,
+				13B1EAFC1385D7F700B09EAD /* PlacemarksListViewController.m */,
+				13B1EAFD1385D7F700B09EAD /* PlacemarkViewController.h */,
+				13B1EAFE1385D7F700B09EAD /* PlacemarkViewController.m */,
+				13B1EAFF1385D7F700B09EAD /* PlacemarkViewController.xib */,
+			);
+			name = Placemarks;
+			sourceTree = "<group>";
+		};
+		13B1EB0A1385D8BB00B09EAD /* Forward Geocoding */ = {
+			isa = PBXGroup;
+			children = (
+				13A91EF4138A35810037D169 /* String */,
+				13A91EF5138A35960037D169 /* Dictionary */,
+				13478098138B1D7D002CCA08 /* Distance Calculator */,
+			);
+			name = "Forward Geocoding";
+			sourceTree = "<group>";
+		};
+		13B1EB0B1385D8CA00B09EAD /* Reverse Geocoding */ = {
+			isa = PBXGroup;
+			children = (
+				13478090138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.h */,
+				13478091138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.m */,
+			);
+			name = "Reverse Geocoding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A849A31385CF44006CB327 /* GeocoderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A849CF1385CF45006CB327 /* Build configuration list for PBXNativeTarget "GeocoderDemo" */;
+			buildPhases = (
+				13A849A01385CF44006CB327 /* Sources */,
+				13A849A11385CF44006CB327 /* Frameworks */,
+				13A849A21385CF44006CB327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeocoderDemo;
+			productName = GeocoderDemo;
+			productReference = 13A849A41385CF44006CB327 /* Geocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A8499B1385CF44006CB327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = 13A8499E1385CF44006CB327 /* Build configuration list for PBXProject "GeocoderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A849991385CF44006CB327;
+			productRefGroup = 13A849A51385CF44006CB327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A849A31385CF44006CB327 /* GeocoderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A849A21385CF44006CB327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A849B31385CF44006CB327 /* InfoPlist.strings in Resources */,
+				13B1EB041385D7F700B09EAD /* PlacemarkViewController.xib in Resources */,
+				13B1EB191385E0FC00B09EAD /* ForwardStringGeocodeTableViewCells.xib in Resources */,
+				1333652613862A73007ECDA7 /* CoordinateSelectorRegularOptions.plist in Resources */,
+				1395224913879B0F00FEEB7B /* CoordinateSelectorTableViewCells.xib in Resources */,
+				13A91EF31389E7CE0037D169 /* DictionarySelectorRegularOptions.plist in Resources */,
+				1345DB9D138EE15E00DC9C7A /* GeocoderDemoIcon57.png in Resources */,
+				1345DB9E138EE15E00DC9C7A /* GeocoderDemoIcon114.png in Resources */,
+				1345DB9F138EE15E00DC9C7A /* GeocoderDemoIcon72.png in Resources */,
+				1345DBA5138EE3DC00DC9C7A /* Default.png in Resources */,
+				1345DBA7138EE41B00DC9C7A /* Default@2x.png in Resources */,
+				1345DBA9138EE45200DC9C7A /* Default-Portrait~ipad.png in Resources */,
+				1345DBAB138EE48300DC9C7A /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A849A01385CF44006CB327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A849B51385CF44006CB327 /* main.m in Sources */,
+				13A849B91385CF44006CB327 /* GeocoderDemoAppDelegate.m in Sources */,
+				13A849BC1385CF44006CB327 /* RootViewController.m in Sources */,
+				13B1EB021385D7F700B09EAD /* PlacemarksListViewController.m in Sources */,
+				13B1EB031385D7F700B09EAD /* PlacemarkViewController.m in Sources */,
+				13B1EB0E1385D95900B09EAD /* ForwardStringGeocodeTableViewController.m in Sources */,
+				1333650213861AE7007ECDA7 /* CoordinateSelectorTableViewController.m in Sources */,
+				1398D8CA138906E400341960 /* ForwardDictionaryGeocodeTableViewController.m in Sources */,
+				13A91EEB1389D9AF0037D169 /* DictionarySelectorTableViewController.m in Sources */,
+				13478092138B1819002CCA08 /* ReverseCoordinateGeocodeTableViewController.m in Sources */,
+				130C351E138B6F760079F392 /* DistanceBetweenTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A849B11385CF44006CB327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A849B21385CF44006CB327 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A849CD1385CF45006CB327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A849CE1385CF45006CB327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A849D01385CF45006CB327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeocoderDemo/GeocoderDemo-Prefix.pch";
+				INFOPLIST_FILE = "GeocoderDemo/GeocoderDemo-Info.plist";
+				PRODUCT_NAME = Geocoder;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13A849D11385CF45006CB327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeocoderDemo/GeocoderDemo-Prefix.pch";
+				INFOPLIST_FILE = "GeocoderDemo/GeocoderDemo-Info.plist";
+				PRODUCT_NAME = Geocoder;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A8499E1385CF44006CB327 /* Build configuration list for PBXProject "GeocoderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A849CD1385CF45006CB327 /* Debug */,
+				13A849CE1385CF45006CB327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A849CF1385CF45006CB327 /* Build configuration list for PBXNativeTarget "GeocoderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A849D01385CF45006CB327 /* Debug */,
+				13A849D11385CF45006CB327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A8499B1385CF44006CB327 /* Project object */;
+}
